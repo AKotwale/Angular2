@@ -1,0 +1,476 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\Users\U413230\Development\Java8\Ang2-auth\package.json
+5 warn package.json angular2-quickstart@1.0.0 No description
+6 warn package.json angular2-quickstart@1.0.0 No repository field.
+7 warn package.json angular2-quickstart@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\angular2\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\concurrently\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\es6-promise\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\es6-shim\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\lite-server\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\reflect-metadata\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\rxjs\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\systemjs\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\typescript\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\zone.js\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\@angular\common\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\@angular\core\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\@angular\platform-browser\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\@angular\router\package.json
+23 verbose readDependencies loading dependencies from C:\Users\U413230\Development\Java8\Ang2-auth\package.json
+24 verbose install bootstrap is installed as 3.3.7
+25 silly cache add args [ 'bootstrap', null ]
+26 verbose cache add spec bootstrap
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'bootstrap',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'bootstrap',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: 'latest',
+27 silly cache add   type: 'tag' }
+28 silly addNamed bootstrap@latest
+29 verbose addNamed "latest" is being treated as a dist-tag for bootstrap
+30 info addNameTag [ 'bootstrap', 'latest' ]
+31 silly mapToRegistry name bootstrap
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry http://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'bootstrap',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'bootstrap',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri http://registry.npmjs.org/bootstrap
+36 verbose addNameTag registry:http://registry.npmjs.org/bootstrap not in flight; fetching
+37 verbose request uri http://registry.npmjs.org/bootstrap
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 1:14:31 PM
+40 verbose request id 998b8120cd3cbaae
+41 verbose etag "3KWU3AI59SG2FNRLCG9DA44EZ"
+42 http request GET http://registry.npmjs.org/bootstrap
+43 http 304 http://registry.npmjs.org/bootstrap
+44 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+44 verbose headers   etag: '"3KWU3AI59SG2FNRLCG9DA44EZ"',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Tue, 04 Oct 2016 20:13:13 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   'x-served-by': 'cache-atl6229-ATL',
+44 verbose headers   'x-cache': 'HIT',
+44 verbose headers   'x-cache-hits': '1',
+44 verbose headers   'x-timer': 'S1475611993.908395,VS0,VE0',
+44 verbose headers   vary: 'Accept-Encoding',
+44 verbose headers   connection: 'Keep-Alive',
+44 verbose headers   'content-encoding': 'gzip',
+44 verbose headers   age: '215' }
+45 silly get cb [ 304,
+45 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+45 silly get     etag: '"3KWU3AI59SG2FNRLCG9DA44EZ"',
+45 silly get     'content-type': 'application/json',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Tue, 04 Oct 2016 20:13:13 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     'x-served-by': 'cache-atl6229-ATL',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '1',
+45 silly get     'x-timer': 'S1475611993.908395,VS0,VE0',
+45 silly get     vary: 'Accept-Encoding',
+45 silly get     connection: 'Keep-Alive',
+45 silly get     'content-encoding': 'gzip',
+45 silly get     age: '215' } ]
+46 verbose etag http://registry.npmjs.org/bootstrap from cache
+47 verbose get saving bootstrap to C:\Users\U413230\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+48 verbose correctMkdir C:\Users\U413230\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 silly addNameTag next cb for bootstrap with tag latest
+50 silly addNamed bootstrap@3.3.7
+51 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+52 silly cache afterAdd bootstrap@3.3.7
+53 verbose afterAdd C:\Users\U413230\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json not in flight; writing
+54 verbose correctMkdir C:\Users\U413230\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+55 verbose afterAdd C:\Users\U413230\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json written
+56 silly install resolved [ { name: 'bootstrap',
+56 silly install resolved     description: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+56 silly install resolved     version: '3.3.7',
+56 silly install resolved     keywords:
+56 silly install resolved      [ 'css',
+56 silly install resolved        'less',
+56 silly install resolved        'mobile-first',
+56 silly install resolved        'responsive',
+56 silly install resolved        'front-end',
+56 silly install resolved        'framework',
+56 silly install resolved        'web' ],
+56 silly install resolved     homepage: 'http://getbootstrap.com',
+56 silly install resolved     author: { name: 'Twitter, Inc.' },
+56 silly install resolved     scripts:
+56 silly install resolved      { 'change-version': 'node grunt/change-version.js',
+56 silly install resolved        'update-shrinkwrap': 'npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json',
+56 silly install resolved        test: 'grunt test' },
+56 silly install resolved     style: 'dist/css/bootstrap.css',
+56 silly install resolved     less: 'less/bootstrap.less',
+56 silly install resolved     main: './dist/js/npm',
+56 silly install resolved     repository:
+56 silly install resolved      { type: 'git',
+56 silly install resolved        url: 'git+https://github.com/twbs/bootstrap.git' },
+56 silly install resolved     bugs: { url: 'https://github.com/twbs/bootstrap/issues' },
+56 silly install resolved     license: 'MIT',
+56 silly install resolved     devDependencies:
+56 silly install resolved      { btoa: '~1.1.2',
+56 silly install resolved        glob: '~7.0.3',
+56 silly install resolved        grunt: '~1.0.1',
+56 silly install resolved        'grunt-autoprefixer': '~3.0.4',
+56 silly install resolved        'grunt-contrib-clean': '~1.0.0',
+56 silly install resolved        'grunt-contrib-compress': '~1.3.0',
+56 silly install resolved        'grunt-contrib-concat': '~1.0.0',
+56 silly install resolved        'grunt-contrib-connect': '~1.0.0',
+56 silly install resolved        'grunt-contrib-copy': '~1.0.0',
+56 silly install resolved        'grunt-contrib-csslint': '~1.0.0',
+56 silly install resolved        'grunt-contrib-cssmin': '~1.0.0',
+56 silly install resolved        'grunt-contrib-htmlmin': '~1.5.0',
+56 silly install resolved        'grunt-contrib-jshint': '~1.0.0',
+56 silly install resolved        'grunt-contrib-less': '~1.3.0',
+56 silly install resolved        'grunt-contrib-pug': '~1.0.0',
+56 silly install resolved        'grunt-contrib-qunit': '~0.7.0',
+56 silly install resolved        'grunt-contrib-uglify': '~1.0.0',
+56 silly install resolved        'grunt-contrib-watch': '~1.0.0',
+56 silly install resolved        'grunt-csscomb': '~3.1.0',
+56 silly install resolved        'grunt-exec': '~1.0.0',
+56 silly install resolved        'grunt-html': '~8.0.1',
+56 silly install resolved        'grunt-jekyll': '~0.4.4',
+56 silly install resolved        'grunt-jscs': '~3.0.1',
+56 silly install resolved        'grunt-saucelabs': '~9.0.0',
+56 silly install resolved        'load-grunt-tasks': '~3.5.0',
+56 silly install resolved        'markdown-it': '^7.0.0',
+56 silly install resolved        shelljs: '^0.7.0',
+56 silly install resolved        shx: '^0.1.2',
+56 silly install resolved        'time-grunt': '^1.3.0' },
+56 silly install resolved     engines: { node: '>=0.10.1' },
+56 silly install resolved     files:
+56 silly install resolved      [ 'dist',
+56 silly install resolved        'fonts',
+56 silly install resolved        'grunt',
+56 silly install resolved        'js/*.js',
+56 silly install resolved        'less/**/*.less',
+56 silly install resolved        'Gruntfile.js',
+56 silly install resolved        'LICENSE' ],
+56 silly install resolved     jspm: { main: 'js/bootstrap', shim: [Object], files: [Object] },
+56 silly install resolved     gitHead: '0b9c4a4007c44201dce9a6cc1a38407005c26c86',
+56 silly install resolved     _id: 'bootstrap@3.3.7',
+56 silly install resolved     _shasum: '5a389394549f23330875a3b150656574f8a9eb71',
+56 silly install resolved     _from: 'bootstrap@latest',
+56 silly install resolved     _npmVersion: '2.15.8',
+56 silly install resolved     _nodeVersion: '4.4.7',
+56 silly install resolved     _npmUser: { name: 'twbs', email: 'getbootstrap@gmail.com' },
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: '5a389394549f23330875a3b150656574f8a9eb71',
+56 silly install resolved        tarball: 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz' },
+56 silly install resolved     maintainers: [ [Object] ],
+56 silly install resolved     _npmOperationalInternal:
+56 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+56 silly install resolved        tmp: 'tmp/bootstrap-3.3.7.tgz_1469462979154_0.42421583621762693' },
+56 silly install resolved     directories: {},
+56 silly install resolved     _resolved: 'http://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz',
+56 silly install resolved     readme: 'ERROR: No README data found!' } ]
+57 info install bootstrap@3.3.7 into C:\Users\U413230\Development\Java8\Ang2-auth
+58 info installOne bootstrap@3.3.7
+59 verbose installOne of bootstrap to C:\Users\U413230\Development\Java8\Ang2-auth not in flight; installing
+60 verbose correctMkdir C:\Users\U413230\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+61 verbose lock using C:\Users\U413230\AppData\Roaming\npm-cache\_locks\bootstrap-3a720c8638eb0837.lock for C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+62 silly install write writing bootstrap 3.3.7 to C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+63 verbose unbuild node_modules\bootstrap
+64 info preuninstall bootstrap@3.3.7
+65 info uninstall bootstrap@3.3.7
+66 verbose unbuild rmStuff bootstrap@3.3.7 from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules
+67 info postuninstall bootstrap@3.3.7
+68 silly gentlyRm C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap is being purged from base C:\Users\U413230\Development\Java8\Ang2-auth
+69 verbose gentlyRm don't care about contents; nuking C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+70 silly vacuum-fs purging C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+71 silly vacuum-fs quitting because other entries in C:\Users\U413230\Development\Java8\Ang2-auth\node_modules
+72 verbose tar unpack C:\Users\U413230\AppData\Roaming\npm-cache\bootstrap\3.3.7\package.tgz
+73 verbose tar unpacking to C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+74 silly gentlyRm C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap is being purged
+75 verbose gentlyRm don't care about contents; nuking C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+76 silly gunzTarPerm modes [ '777', '666' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+81 silly gunzTarPerm extractEntry LICENSE
+82 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+83 silly gunzTarPerm extractEntry Gruntfile.js
+84 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+85 silly gunzTarPerm extractEntry CHANGELOG.md
+86 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+87 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.css
+88 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.css', 420, 438 ]
+89 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.css.map
+90 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.css.map', 420, 438 ]
+91 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.min.css
+92 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.min.css', 420, 438 ]
+93 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.min.css.map
+94 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.min.css.map', 420, 438 ]
+95 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+96 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css', 420, 438 ]
+97 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+98 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css.map', 420, 438 ]
+99 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+100 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css', 420, 438 ]
+101 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+102 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css.map', 420, 438 ]
+103 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.eot
+104 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.eot', 420, 438 ]
+105 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.svg
+106 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.svg', 420, 438 ]
+107 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.ttf
+108 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.ttf', 420, 438 ]
+109 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.woff
+110 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.woff', 420, 438 ]
+111 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.woff2
+112 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.woff2', 420, 438 ]
+113 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+114 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.js', 420, 438 ]
+115 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+116 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.min.js', 420, 438 ]
+117 silly gunzTarPerm extractEntry dist/js/npm.js
+118 silly gunzTarPerm modified mode [ 'dist/js/npm.js', 420, 438 ]
+119 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.eot
+120 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.eot', 420, 438 ]
+121 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.svg
+122 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.svg', 420, 438 ]
+123 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.ttf
+124 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.ttf', 420, 438 ]
+125 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.woff
+126 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.woff', 420, 438 ]
+127 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.woff2
+128 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.woff2', 420, 438 ]
+129 silly gunzTarPerm extractEntry grunt/bs-commonjs-generator.js
+130 silly gunzTarPerm modified mode [ 'grunt/bs-commonjs-generator.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry grunt/bs-glyphicons-data-generator.js
+132 silly gunzTarPerm modified mode [ 'grunt/bs-glyphicons-data-generator.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry grunt/bs-lessdoc-parser.js
+134 silly gunzTarPerm modified mode [ 'grunt/bs-lessdoc-parser.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry grunt/bs-raw-files-generator.js
+136 silly gunzTarPerm modified mode [ 'grunt/bs-raw-files-generator.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry grunt/change-version.js
+138 silly gunzTarPerm modified mode [ 'grunt/change-version.js', 493, 511 ]
+139 silly gunzTarPerm extractEntry grunt/.jshintrc
+140 silly gunzTarPerm modified mode [ 'grunt/.jshintrc', 420, 438 ]
+141 silly gunzTarPerm extractEntry grunt/configBridge.json
+142 silly gunzTarPerm modified mode [ 'grunt/configBridge.json', 420, 438 ]
+143 silly gunzTarPerm extractEntry grunt/npm-shrinkwrap.json
+144 silly gunzTarPerm modified mode [ 'grunt/npm-shrinkwrap.json', 420, 438 ]
+145 silly gunzTarPerm extractEntry grunt/sauce_browsers.yml
+146 silly gunzTarPerm modified mode [ 'grunt/sauce_browsers.yml', 420, 438 ]
+147 silly gunzTarPerm extractEntry js/affix.js
+148 silly gunzTarPerm modified mode [ 'js/affix.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry js/button.js
+150 silly gunzTarPerm modified mode [ 'js/button.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry js/carousel.js
+152 silly gunzTarPerm modified mode [ 'js/carousel.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry js/collapse.js
+154 silly gunzTarPerm modified mode [ 'js/collapse.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry js/dropdown.js
+156 silly gunzTarPerm modified mode [ 'js/dropdown.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry js/alert.js
+158 silly gunzTarPerm modified mode [ 'js/alert.js', 420, 438 ]
+159 silly gunzTarPerm extractEntry js/popover.js
+160 silly gunzTarPerm modified mode [ 'js/popover.js', 420, 438 ]
+161 silly gunzTarPerm extractEntry js/scrollspy.js
+162 silly gunzTarPerm modified mode [ 'js/scrollspy.js', 420, 438 ]
+163 silly gunzTarPerm extractEntry js/tab.js
+164 silly gunzTarPerm modified mode [ 'js/tab.js', 420, 438 ]
+165 silly gunzTarPerm extractEntry js/tooltip.js
+166 silly gunzTarPerm modified mode [ 'js/tooltip.js', 420, 438 ]
+167 silly gunzTarPerm extractEntry js/transition.js
+168 silly gunzTarPerm modified mode [ 'js/transition.js', 420, 438 ]
+169 silly gunzTarPerm extractEntry js/modal.js
+170 silly gunzTarPerm modified mode [ 'js/modal.js', 420, 438 ]
+171 silly gunzTarPerm extractEntry less/mixins.less
+172 silly gunzTarPerm modified mode [ 'less/mixins.less', 420, 438 ]
+173 silly gunzTarPerm extractEntry less/alerts.less
+174 silly gunzTarPerm modified mode [ 'less/alerts.less', 420, 438 ]
+175 silly gunzTarPerm extractEntry less/badges.less
+176 silly gunzTarPerm modified mode [ 'less/badges.less', 420, 438 ]
+177 silly gunzTarPerm extractEntry less/bootstrap.less
+178 silly gunzTarPerm modified mode [ 'less/bootstrap.less', 420, 438 ]
+179 silly gunzTarPerm extractEntry less/breadcrumbs.less
+180 silly gunzTarPerm modified mode [ 'less/breadcrumbs.less', 420, 438 ]
+181 silly gunzTarPerm extractEntry less/button-groups.less
+182 silly gunzTarPerm modified mode [ 'less/button-groups.less', 420, 438 ]
+183 silly gunzTarPerm extractEntry less/buttons.less
+184 silly gunzTarPerm modified mode [ 'less/buttons.less', 420, 438 ]
+185 silly gunzTarPerm extractEntry less/carousel.less
+186 silly gunzTarPerm modified mode [ 'less/carousel.less', 420, 438 ]
+187 silly gunzTarPerm extractEntry less/close.less
+188 silly gunzTarPerm modified mode [ 'less/close.less', 420, 438 ]
+189 silly gunzTarPerm extractEntry less/code.less
+190 silly gunzTarPerm modified mode [ 'less/code.less', 420, 438 ]
+191 silly gunzTarPerm extractEntry less/component-animations.less
+192 silly gunzTarPerm modified mode [ 'less/component-animations.less', 420, 438 ]
+193 silly gunzTarPerm extractEntry less/dropdowns.less
+194 silly gunzTarPerm modified mode [ 'less/dropdowns.less', 420, 438 ]
+195 silly gunzTarPerm extractEntry less/forms.less
+196 silly gunzTarPerm modified mode [ 'less/forms.less', 420, 438 ]
+197 silly gunzTarPerm extractEntry less/glyphicons.less
+198 silly gunzTarPerm modified mode [ 'less/glyphicons.less', 420, 438 ]
+199 silly gunzTarPerm extractEntry less/grid.less
+200 silly gunzTarPerm modified mode [ 'less/grid.less', 420, 438 ]
+201 silly gunzTarPerm extractEntry less/input-groups.less
+202 silly gunzTarPerm modified mode [ 'less/input-groups.less', 420, 438 ]
+203 silly gunzTarPerm extractEntry less/jumbotron.less
+204 silly gunzTarPerm modified mode [ 'less/jumbotron.less', 420, 438 ]
+205 silly gunzTarPerm extractEntry less/labels.less
+206 silly gunzTarPerm modified mode [ 'less/labels.less', 420, 438 ]
+207 silly gunzTarPerm extractEntry less/list-group.less
+208 silly gunzTarPerm modified mode [ 'less/list-group.less', 420, 438 ]
+209 silly gunzTarPerm extractEntry less/media.less
+210 silly gunzTarPerm modified mode [ 'less/media.less', 420, 438 ]
+211 silly gunzTarPerm extractEntry less/mixins/nav-vertical-align.less
+212 silly gunzTarPerm modified mode [ 'less/mixins/nav-vertical-align.less', 420, 438 ]
+213 silly gunzTarPerm extractEntry less/mixins/alerts.less
+214 silly gunzTarPerm modified mode [ 'less/mixins/alerts.less', 420, 438 ]
+215 silly gunzTarPerm extractEntry less/mixins/border-radius.less
+216 silly gunzTarPerm modified mode [ 'less/mixins/border-radius.less', 420, 438 ]
+217 silly gunzTarPerm extractEntry less/mixins/buttons.less
+218 silly gunzTarPerm modified mode [ 'less/mixins/buttons.less', 420, 438 ]
+219 silly gunzTarPerm extractEntry less/mixins/center-block.less
+220 silly gunzTarPerm modified mode [ 'less/mixins/center-block.less', 420, 438 ]
+221 silly gunzTarPerm extractEntry less/mixins/clearfix.less
+222 silly gunzTarPerm modified mode [ 'less/mixins/clearfix.less', 420, 438 ]
+223 silly gunzTarPerm extractEntry less/mixins/forms.less
+224 silly gunzTarPerm modified mode [ 'less/mixins/forms.less', 420, 438 ]
+225 silly gunzTarPerm extractEntry less/mixins/gradients.less
+226 silly gunzTarPerm modified mode [ 'less/mixins/gradients.less', 420, 438 ]
+227 silly gunzTarPerm extractEntry less/mixins/grid-framework.less
+228 silly gunzTarPerm modified mode [ 'less/mixins/grid-framework.less', 420, 438 ]
+229 silly gunzTarPerm extractEntry less/mixins/grid.less
+230 silly gunzTarPerm modified mode [ 'less/mixins/grid.less', 420, 438 ]
+231 silly gunzTarPerm extractEntry less/mixins/hide-text.less
+232 silly gunzTarPerm modified mode [ 'less/mixins/hide-text.less', 420, 438 ]
+233 silly gunzTarPerm extractEntry less/mixins/image.less
+234 silly gunzTarPerm modified mode [ 'less/mixins/image.less', 420, 438 ]
+235 silly gunzTarPerm extractEntry less/mixins/labels.less
+236 silly gunzTarPerm modified mode [ 'less/mixins/labels.less', 420, 438 ]
+237 silly gunzTarPerm extractEntry less/mixins/list-group.less
+238 silly gunzTarPerm modified mode [ 'less/mixins/list-group.less', 420, 438 ]
+239 silly gunzTarPerm extractEntry less/mixins/nav-divider.less
+240 silly gunzTarPerm modified mode [ 'less/mixins/nav-divider.less', 420, 438 ]
+241 silly gunzTarPerm extractEntry less/mixins/background-variant.less
+242 silly gunzTarPerm modified mode [ 'less/mixins/background-variant.less', 420, 438 ]
+243 silly gunzTarPerm extractEntry less/mixins/opacity.less
+244 silly gunzTarPerm modified mode [ 'less/mixins/opacity.less', 420, 438 ]
+245 silly gunzTarPerm extractEntry less/mixins/pagination.less
+246 silly gunzTarPerm modified mode [ 'less/mixins/pagination.less', 420, 438 ]
+247 silly gunzTarPerm extractEntry less/mixins/panels.less
+248 silly gunzTarPerm modified mode [ 'less/mixins/panels.less', 420, 438 ]
+249 silly gunzTarPerm extractEntry less/mixins/progress-bar.less
+250 silly gunzTarPerm modified mode [ 'less/mixins/progress-bar.less', 420, 438 ]
+251 silly gunzTarPerm extractEntry less/mixins/reset-filter.less
+252 silly gunzTarPerm modified mode [ 'less/mixins/reset-filter.less', 420, 438 ]
+253 silly gunzTarPerm extractEntry less/mixins/reset-text.less
+254 silly gunzTarPerm modified mode [ 'less/mixins/reset-text.less', 420, 438 ]
+255 silly gunzTarPerm extractEntry less/mixins/resize.less
+256 silly gunzTarPerm modified mode [ 'less/mixins/resize.less', 420, 438 ]
+257 silly gunzTarPerm extractEntry less/mixins/responsive-visibility.less
+258 silly gunzTarPerm modified mode [ 'less/mixins/responsive-visibility.less', 420, 438 ]
+259 silly gunzTarPerm extractEntry less/mixins/size.less
+260 silly gunzTarPerm modified mode [ 'less/mixins/size.less', 420, 438 ]
+261 silly gunzTarPerm extractEntry less/mixins/tab-focus.less
+262 silly gunzTarPerm modified mode [ 'less/mixins/tab-focus.less', 420, 438 ]
+263 silly gunzTarPerm extractEntry less/mixins/table-row.less
+264 silly gunzTarPerm modified mode [ 'less/mixins/table-row.less', 420, 438 ]
+265 silly gunzTarPerm extractEntry less/mixins/text-emphasis.less
+266 silly gunzTarPerm modified mode [ 'less/mixins/text-emphasis.less', 420, 438 ]
+267 silly gunzTarPerm extractEntry less/mixins/text-overflow.less
+268 silly gunzTarPerm modified mode [ 'less/mixins/text-overflow.less', 420, 438 ]
+269 silly gunzTarPerm extractEntry less/mixins/vendor-prefixes.less
+270 silly gunzTarPerm modified mode [ 'less/mixins/vendor-prefixes.less', 420, 438 ]
+271 silly gunzTarPerm extractEntry less/modals.less
+272 silly gunzTarPerm modified mode [ 'less/modals.less', 420, 438 ]
+273 silly gunzTarPerm extractEntry less/navbar.less
+274 silly gunzTarPerm modified mode [ 'less/navbar.less', 420, 438 ]
+275 silly gunzTarPerm extractEntry less/navs.less
+276 silly gunzTarPerm modified mode [ 'less/navs.less', 420, 438 ]
+277 silly gunzTarPerm extractEntry less/normalize.less
+278 silly gunzTarPerm modified mode [ 'less/normalize.less', 420, 438 ]
+279 silly gunzTarPerm extractEntry less/pager.less
+280 silly gunzTarPerm modified mode [ 'less/pager.less', 420, 438 ]
+281 silly gunzTarPerm extractEntry less/pagination.less
+282 silly gunzTarPerm modified mode [ 'less/pagination.less', 420, 438 ]
+283 silly gunzTarPerm extractEntry less/panels.less
+284 silly gunzTarPerm modified mode [ 'less/panels.less', 420, 438 ]
+285 silly gunzTarPerm extractEntry less/popovers.less
+286 silly gunzTarPerm modified mode [ 'less/popovers.less', 420, 438 ]
+287 silly gunzTarPerm extractEntry less/print.less
+288 silly gunzTarPerm modified mode [ 'less/print.less', 420, 438 ]
+289 silly gunzTarPerm extractEntry less/progress-bars.less
+290 silly gunzTarPerm modified mode [ 'less/progress-bars.less', 420, 438 ]
+291 silly gunzTarPerm extractEntry less/responsive-embed.less
+292 silly gunzTarPerm modified mode [ 'less/responsive-embed.less', 420, 438 ]
+293 silly gunzTarPerm extractEntry less/responsive-utilities.less
+294 silly gunzTarPerm modified mode [ 'less/responsive-utilities.less', 420, 438 ]
+295 silly gunzTarPerm extractEntry less/scaffolding.less
+296 silly gunzTarPerm modified mode [ 'less/scaffolding.less', 420, 438 ]
+297 silly gunzTarPerm extractEntry less/tables.less
+298 silly gunzTarPerm modified mode [ 'less/tables.less', 420, 438 ]
+299 silly gunzTarPerm extractEntry less/theme.less
+300 silly gunzTarPerm modified mode [ 'less/theme.less', 420, 438 ]
+301 silly gunzTarPerm extractEntry less/thumbnails.less
+302 silly gunzTarPerm modified mode [ 'less/thumbnails.less', 420, 438 ]
+303 silly gunzTarPerm extractEntry less/tooltip.less
+304 silly gunzTarPerm modified mode [ 'less/tooltip.less', 420, 438 ]
+305 silly gunzTarPerm extractEntry less/type.less
+306 silly gunzTarPerm modified mode [ 'less/type.less', 420, 438 ]
+307 silly gunzTarPerm extractEntry less/utilities.less
+308 silly gunzTarPerm modified mode [ 'less/utilities.less', 420, 438 ]
+309 silly gunzTarPerm extractEntry less/variables.less
+310 silly gunzTarPerm modified mode [ 'less/variables.less', 420, 438 ]
+311 silly gunzTarPerm extractEntry less/wells.less
+312 silly gunzTarPerm modified mode [ 'less/wells.less', 420, 438 ]
+313 verbose write writing to C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap\package.json
+314 info preinstall bootstrap@3.3.7
+315 verbose readDependencies loading dependencies from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap\package.json
+316 verbose readDependencies loading dependencies from C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap\package.json
+317 silly install resolved []
+318 verbose about to build C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+319 info build C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+320 info linkStuff bootstrap@3.3.7
+321 silly linkStuff bootstrap@3.3.7 has C:\Users\U413230\Development\Java8\Ang2-auth\node_modules as its parent node_modules
+322 verbose linkBins bootstrap@3.3.7
+323 verbose linkMans bootstrap@3.3.7
+324 verbose rebuildBundles bootstrap@3.3.7
+325 info install bootstrap@3.3.7
+326 info postinstall bootstrap@3.3.7
+327 verbose unlock done using C:\Users\U413230\AppData\Roaming\npm-cache\_locks\bootstrap-3a720c8638eb0837.lock for C:\Users\U413230\Development\Java8\Ang2-auth\node_modules\bootstrap
+328 verbose validateInstall loading C:\Users\U413230\Development\Java8\Ang2-auth\package.json for validation
+329 verbose stack Error: The package rxjs@5.0.0-beta.2 does not satisfy its siblings' peerDependencies requirements!
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+329 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+329 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+329 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+329 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+330 verbose cwd C:\Users\U413230\Development\Java8\Ang2-auth\app
+331 error Windows_NT 6.1.7601
+332 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bootstrap"
+333 error node v4.5.0
+334 error npm  v2.15.9
+335 error code EPEERINVALID
+336 error peerinvalid The package rxjs@5.0.0-beta.2 does not satisfy its siblings' peerDependencies requirements!
+336 error peerinvalid Peer angular2@2.0.0-beta.7 wants rxjs@5.0.0-beta.2
+336 error peerinvalid Peer @angular/router@3.0.0 wants rxjs@5.0.0-beta.12
+336 error peerinvalid Peer @angular/core@2.0.1 wants rxjs@5.0.0-beta.12
+337 verbose exit [ 1, true ]
