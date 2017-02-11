@@ -6,3 +6,5 @@ Daily Deals is an application built with Angular 2 that shows how you can add to
 
 Install the dependencies by running `npm install`. 
 Then run `npm start` to start your application.
+
+## New contentn and should be removed. 
